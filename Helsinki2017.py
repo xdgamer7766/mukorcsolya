@@ -46,8 +46,5 @@ for sor in elsoresz:
         reszvett = True
 if reszvett:
     print("Ilyen nevű induló nem volt")
-    print(f"6.Feladat: {OsszPontszam(versenyzo)}")
-
-
-
-
+else:
+    print(f"6.Feladat:A versenyző összpontszáma: {OsszPontszam(versenyzo)}")
